@@ -102,10 +102,7 @@ Database : MySql
 
 Authors:
 ----------------
-Shantanu Bharawdaj : Master
-Sagar Roy Prodhan : Developer
-Ashish Kumar Netam : Developer
-Sandeep Kumar Markande : Developer
+Sagar Roy Prodhan : Developer/Master
 =======
 # AUTOPLAC
 placement automation system
