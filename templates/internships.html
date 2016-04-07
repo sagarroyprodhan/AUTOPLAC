@@ -1,0 +1,23 @@
+{% extends "base.html"%}
+{%load staticfiles%}
+
+{%block content%}
+
+
+          <div class="form-style-5">
+<form action=/internships/ method="post">{%csrf_token%}
+<!--<fieldset>
+<legend><span class="number">5</span>Internship Details</legend>
+<input type="text" name="field1" placeholder="Title">
+<input type="text" name="field2" placeholder="Location">
+<input type="text" name="field3" placeholder="Duration">
+<textarea name="field4" placeholder="Description"></textarea>
+<input type="text" name="field5" placeholder="Certificate URL (if any)">
+
+</fieldset>-->
+{{form2}}
+<input type="submit" value="SAVE" />
+</form>
+</div>
+
+{%endblock%}

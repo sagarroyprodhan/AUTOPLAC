@@ -1,0 +1,42 @@
+{% extends "base.html"%}
+{%load staticfiles%}
+
+{%block content%}
+
+          <div class="form-style-5">
+<form>
+<fieldset>
+<legend><span class="number">4</span>Education Details</legend>
+<h1 align="center"><strong>Under-Graduation Details</strong></h1>
+
+<label for="year">Year of Passing:</label>
+<select id="year" name="field5">
+
+  <option value="4th">2016</option>
+  <option value="5th">2015</option>
+  <option value="6th">2014</option>
+  
+ 
+</select>
+
+<input type="text" name="field1" placeholder="Last Semester Grade Point Index">
+
+<input type="text" name="field1" placeholder="Cummulative Grade Point Index">
+
+<label for="branch">Branch of Study:</label>
+<select id="branch" name="field4">
+
+  <option value="cse">CSE</option>
+  <option value="ece">ECE</option>
+  <option value="mech">MECH</option>
+  <option value="chem">CHEM</option>
+ 
+</select>
+  
+</fieldset>
+
+<input type="submit" value="SAVE" />
+</form>
+</div>
+
+{%endblock%}

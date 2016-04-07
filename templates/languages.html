@@ -1,0 +1,26 @@
+{% extends "base.html"%}
+{%load staticfiles%}
+
+{%block content%}
+
+          <div class="form-style-5">
+<form>
+<fieldset>
+<legend><span class="number">6</span>Languages</legend>
+<form action="demo_form.asp">
+  <input type="checkbox" name="c" value="c"> C  <br>
+  <input type="checkbox" name="c++" value="c++" >C++     <br>
+  <input type="checkbox" name="Java" value="Java"> Java <br>
+  <input type="checkbox" name="python" value="python"> Python
+  <br>   
+  <br>
+  <br>        
+  <textarea name="field1" placeholder="Any other"></textarea>
+</form>
+</fieldset>
+
+<input type="submit" value="SAVE" />
+</form>
+</div>
+
+{%endblock%}

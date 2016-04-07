@@ -1,0 +1,42 @@
+{% extends "base.html"%}
+{%load staticfiles%}
+
+{%block content%}
+
+          <div class="form-style-5">
+<form>
+<fieldset>
+<legend><span class="number">4</span>Education Details</legend>
+<h1 align="center"><strong>Secondary Education</strong></h1>
+
+<label for="year">Year of Passing:</label>
+<select id="year" name="field5">
+
+  <option value="4th">2010</option>
+  <option value="5th">2009</option>
+  <option value="6th">2008</option>
+  
+ 
+</select>
+
+<input type="text" name="field1" placeholder="Percentage Obtained">
+
+<input type="text" name="field2" placeholder="School">
+
+<label for="year">Board:</label>
+<select id="year" name="field5">
+
+  <option value="cbse">CBSE</option>
+  <option value="ICSE">ICSE</option>
+  <option value="JAC">Jharkhand State Board</option>
+  
+</select>
+
+
+</fieldset>
+
+<input type="submit" value="SAVE" />
+</form>
+</div>
+
+{%endblock%}
