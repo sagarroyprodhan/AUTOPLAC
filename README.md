@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 			
 			
 		                             	      PLACEMENT   AUTOMATION   SYSTEM
@@ -105,3 +106,7 @@ Shantanu Bharawdaj : Master
 Sagar Roy Prodhan : Developer
 Ashish Kumar Netam : Developer
 Sandeep Kumar Markande : Developer
+=======
+# AUTOPLAC
+placement automation system
+>>>>>>> 54a063dac2f8fe36211933acc3db6dbcb8387dfb
